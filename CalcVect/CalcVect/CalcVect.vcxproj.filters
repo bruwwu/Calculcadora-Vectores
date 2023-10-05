@@ -18,13 +18,7 @@
     <ClCompile Include="App.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Vector2.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Vector3.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Vector4.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,6 +30,9 @@
       <Filter>Archivos de recursos</Filter>
     </ClInclude>
     <ClInclude Include="Vector2.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
       <Filter>Archivos de recursos</Filter>
     </ClInclude>
   </ItemGroup>

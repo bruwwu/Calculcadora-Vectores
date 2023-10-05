@@ -1,6 +1,30 @@
 ﻿  App.cpp
-  Vector4.cpp
-  Vector3.cpp
-  Vector2.cpp
+  main.cpp
   Generando código...
-  CalcVect.vcxproj -> C:\Users\Bruwu\Documents\GitHub\Calculadora\Calculcadora-Vectores\CalcVect\x64\Debug\CalcVect.exe
+main.obj : error LNK2005: ya se definió "public: class Vector2 __cdecl Vector2::Div(class Vector2 const &)const " (?Div@Vector2@@QEBA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector3 __cdecl Vector3::Div(class Vector3 const &)" (?Div@Vector3@@QEAA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector4 __cdecl Vector4::Div(class Vector4 const &)const " (?Div@Vector4@@QEBA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: double __cdecl Vector2::Magnitud(void)const " (?Magnitud@Vector2@@QEBANXZ) en App.obj
+main.obj : error LNK2005: ya se definió "public: double __cdecl Vector4::Magnitud(void)const " (?Magnitud@Vector4@@QEBANXZ) en App.obj
+main.obj : error LNK2005: ya se definió "public: void __cdecl Vector2::Mostrar(void)const " (?Mostrar@Vector2@@QEBAXXZ) en App.obj
+main.obj : error LNK2005: ya se definió "public: void __cdecl Vector3::Mostrar(void)const " (?Mostrar@Vector3@@QEBAXXZ) en App.obj
+main.obj : error LNK2005: ya se definió "public: void __cdecl Vector4::Mostrar(void)const " (?Mostrar@Vector4@@QEBAXXZ) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector2 __cdecl Vector2::Mul(class Vector2 const &)const " (?Mul@Vector2@@QEBA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector3 __cdecl Vector3::Mul(class Vector3 const &)" (?Mul@Vector3@@QEAA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector4 __cdecl Vector4::Mul(class Vector4 const &)const " (?Mul@Vector4@@QEBA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector2 __cdecl Vector2::Normalizar(void)const " (?Normalizar@Vector2@@QEBA?AV1@XZ) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector4 __cdecl Vector4::Normalizar(void)const " (?Normalizar@Vector4@@QEBA?AV1@XZ) en App.obj
+main.obj : error LNK2005: ya se definió "public: double __cdecl Vector2::ProdEsc(class Vector2 const &)const " (?ProdEsc@Vector2@@QEBANAEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: double __cdecl Vector3::ProdEsc(class Vector3 const &)" (?ProdEsc@Vector3@@QEAANAEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: double __cdecl Vector4::ProdEsc(class Vector4 const &)const " (?ProdEsc@Vector4@@QEBANAEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector2 __cdecl Vector2::ProdVect(class Vector2 const &)const " (?ProdVect@Vector2@@QEBA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector3 __cdecl Vector3::ProdVect(class Vector3 const &)" (?ProdVect@Vector3@@QEAA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector2 __cdecl Vector2::Res(class Vector2 const &)const " (?Res@Vector2@@QEBA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector3 __cdecl Vector3::Res(class Vector3 const &)" (?Res@Vector3@@QEAA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector4 __cdecl Vector4::Res(class Vector4 const &)const " (?Res@Vector4@@QEBA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector2 __cdecl Vector2::Sum(class Vector2 const &)const " (?Sum@Vector2@@QEBA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector3 __cdecl Vector3::Sum(class Vector3 const &)" (?Sum@Vector3@@QEAA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2005: ya se definió "public: class Vector4 __cdecl Vector4::Sum(class Vector4 const &)const " (?Sum@Vector4@@QEBA?AV1@AEBV1@@Z) en App.obj
+main.obj : error LNK2019: símbolo externo "public: double __cdecl Vector3::Magnitud(void)const " (?Magnitud@Vector3@@QEBANXZ) sin resolver al que se hace referencia en la función "public: void __cdecl App::Menu3D(void)" (?Menu3D@App@@QEAAXXZ)
+main.obj : error LNK2019: símbolo externo "public: class Vector3 __cdecl Vector3::Normalizar(void)const " (?Normalizar@Vector3@@QEBA?AV1@XZ) sin resolver al que se hace referencia en la función "public: void __cdecl App::Menu3D(void)" (?Menu3D@App@@QEAAXXZ)
+C:\Users\Bruwu\Documents\GitHub\Calculadora\Calculcadora-Vectores\CalcVect\x64\Debug\CalcVect.exe : fatal error LNK1120: 2 externos sin resolver
